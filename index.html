@@ -209,8 +209,8 @@ body.menu-open{overflow:hidden}
 .find__txt h2{margin-bottom:1rem}
 .find__txt>p{color:var(--ink2);margin-bottom:1.2rem}
 .contact-list{display:grid;gap:.8rem;margin-top:1.4rem}
-.contact-list a,.contact-list div{display:flex;align-items:center;gap:.9rem;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.95rem 1.1rem;transition:border-color .2s}
-.contact-list a:hover{border-color:rgba(var(--acc-rgb),.6)}
+.contact-list>a,.contact-list>div{display:flex;align-items:center;gap:.9rem;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.95rem 1.1rem;transition:border-color .2s}
+.contact-list>a:hover{border-color:rgba(var(--acc-rgb),.6)}
 .contact-list .ico{width:42px;height:42px;border-radius:10px;background:rgba(var(--acc-rgb),.14);display:grid;place-items:center;color:var(--acc);flex:none}
 .contact-list b{display:block;font-weight:700;color:#fff;overflow-wrap:anywhere}
 .contact-list>*>div{min-width:0}
@@ -223,7 +223,7 @@ body.menu-open{overflow:hidden}
 .find__map .sign img{width:64px;height:64px;border-radius:8px;object-fit:cover;border:1px solid var(--line2)}
 .find__map .sign b{display:block;color:#fff}
 .find__map .sign span{font-size:.86rem;color:var(--mute)}
-@media (max-width:900px){.find__grid{grid-template-columns:minmax(0,1fr)}.find__txt{text-align:center}.find__txt .kicker{justify-content:center}.find__txt .kicker::after{display:block}.contact-list a,.contact-list div{text-align:left}}
+@media (max-width:900px){.find__grid{grid-template-columns:minmax(0,1fr)}.find__txt{text-align:center}.find__txt .kicker{justify-content:center}.find__txt .kicker::after{display:block}.contact-list>a,.contact-list>div{text-align:left}}
 
 /* ====== FOOTER ====== */
 .ftr{padding:3rem 0 calc(2rem + 84px);border-top:1px solid var(--line);color:var(--mute);font-size:.9rem}
