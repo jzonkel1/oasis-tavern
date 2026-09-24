@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Oasis Tavern | Flour Bluff's Beer, Pool &amp; Karaoke Bar — Corpus Christi, TX</title>
+<meta name="description" content="Oasis Tavern on NAS Drive in Flour Bluff: ice cold beer, pool tables, Saturday karaoke, Wednesday open mic and a big covered patio. Cash bar, BYOB set-ups, friendly faces. Open 7 days.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="canonical" href="https://jzonkel1.github.io/oasis-tavern/">
+<meta property="og:title" content="Oasis Tavern — Flour Bluff, Corpus Christi">
+<meta property="og:description" content="Ice cold beer, pool, karaoke Saturdays, open mic Wednesdays and a big patio on NAS Drive. Cash bar, BYOB set-ups. Open 7 days.">
+<meta property="og:site_name" content="Oasis Tavern">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://jzonkel1.github.io/oasis-tavern/">
+<meta property="og:image" content="https://jzonkel1.github.io/oasis-tavern/assets/img/og.jpg?v=1">
+<meta property="og:image:secure_url" content="https://jzonkel1.github.io/oasis-tavern/assets/img/og.jpg?v=1">
+<meta property="og:image:alt" content="Oasis Tavern, 722 NAS Dr, Corpus Christi">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://jzonkel1.github.io/oasis-tavern/assets/img/og.jpg?v=1">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preload" as="image" href="assets/img/hero-m.jpg" media="(max-width:899px)">
+<link rel="preload" as="image" href="assets/img/hero-d.jpg" media="(min-width:900px)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+/* ====== TOKENS ====== */
+:root{
+  --bg:#15110d; --bg2:#1b1611; --card:#221c16; --line:rgba(255,236,200,.09); --line2:rgba(255,236,200,.16);
+  --ink:#f7efe1; --ink2:#dccfb8; --mute:#a3937b;
+  --acc:#e3b23c; --acc-rgb:227,178,60; --acc-deep:#c8971f; --acc-ink:#1a1408;
+  --star:#f0b429;
+  --f-head:'Zilla Slab',Georgia,serif; --f-body:'Mulish',system-ui,sans-serif;
+  --r:16px; --r-sm:10px; --wrap:1140px;
+  --shadow:0 24px 60px -24px rgba(0,0,0,.75);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--f-body);background:var(--bg);color:var(--ink);line-height:1.55;font-size:17px;overflow-x:hidden;min-width:0}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.055;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit}
+.wrap{width:min(var(--wrap),100% - 2.5rem);margin-inline:auto;position:relative;z-index:1}
+h1,h2,h3{font-family:var(--f-head);font-weight:700;line-height:1.05;letter-spacing:-.005em}
+h2{font-size:clamp(2rem,4.2vw,3rem)}
+h3{font-size:1.2rem}
+.kicker{font-weight:700;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--acc);display:flex;align-items:center;gap:.7rem;margin-bottom:.9rem}
+.kicker::before,.kicker::after{content:"";width:26px;height:2px;background:currentColor;flex:none}
+.kicker::after{display:none}
+.lede{color:var(--ink2);font-size:1.08rem;max-width:60ch}
+section{padding:clamp(4rem,8vw,6.5rem) 0;position:relative}
+.sec-head{max-width:720px;margin-bottom:2.4rem}
+.sec-head h2{margin-bottom:.8rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;padding:.95rem 1.5rem;border-radius:999px;font-weight:700;font-size:.98rem;border:1px solid transparent;transition:transform .15s,background .2s,box-shadow .2s;cursor:pointer;white-space:nowrap}
+.btn:active{transform:translateY(1px)}
+.btn-acc{background:var(--acc);color:var(--acc-ink);box-shadow:0 12px 30px -12px rgba(var(--acc-rgb),.7)}
+.btn-acc:hover{background:var(--acc-deep)}
+.btn-ghost{background:rgba(255,236,200,.06);border-color:var(--line2);color:var(--ink);backdrop-filter:blur(6px)}
+.btn-ghost:hover{background:rgba(255,236,200,.12)}
+.ic{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.btn .ic{width:18px;height:18px}
+.ic.fill{fill:currentColor;stroke:none}
+.stars{color:var(--star);letter-spacing:.05em}
+
+/* ====== HEADER ====== */
+.hdr{position:sticky;top:0;z-index:60;background:rgba(21,17,13,.84);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.hdr .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;height:72px}
+.brand{font-family:var(--f-head);font-weight:700;font-size:1.35rem;letter-spacing:.02em;line-height:1;display:flex;align-items:baseline;gap:.4rem}
+.brand em{font-style:normal;color:var(--acc)}
+.brand small{font-family:var(--f-body);font-weight:600;font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--mute)}
+.nav{display:flex;align-items:center;gap:.15rem}
+.nav a{padding:.6rem .85rem;border-radius:8px;font-weight:600;font-size:.94rem;color:var(--ink2)}
+.nav a:hover{color:var(--ink);background:rgba(255,236,200,.06)}
+.hdr-cta{display:flex;align-items:center;gap:.5rem}
+.hdr-cta .btn{padding:.7rem 1.1rem;font-size:.92rem}
+.burger{display:none;width:44px;height:44px;border-radius:10px;border:1px solid var(--line2);background:rgba(255,236,200,.05);align-items:center;justify-content:center;cursor:pointer}
+@media (max-width:900px){.nav{display:none}.burger{display:flex}.hdr-cta .btn span{display:none}.hdr-cta .btn{padding:.7rem .85rem}}
+@media (max-width:400px){.brand small{display:none}}
+.mnav{position:fixed;inset:0;z-index:80;background:rgba(21,17,13,.985);display:none;flex-direction:column;padding:1rem 1.25rem calc(1.25rem + env(safe-area-inset-bottom));overflow-y:auto}
+.mnav.on{display:flex}
+.mnav__top{display:flex;align-items:center;justify-content:space-between;height:56px;margin-bottom:.5rem}
+.mnav__close{width:44px;height:44px;border-radius:10px;border:1px solid var(--line2);background:rgba(255,236,200,.05);font-size:1.5rem;cursor:pointer}
+.mnav>a{font-family:var(--f-head);font-weight:600;font-size:1.35rem;padding:1rem .25rem;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
+.mnav>a .ic{color:var(--acc)}
+.mnav .btn{margin-top:1.25rem}
+.mnav .mn-sub{color:var(--mute);font-size:.9rem;margin-top:1rem;text-align:center}
+body.menu-open{overflow:hidden}
+
+/* ====== HERO ====== */
+.hero{position:relative;min-height:92vh;min-height:92svh;display:flex;align-items:flex-end;overflow:hidden;padding:2rem 0 calc(clamp(1.5rem,4vh,3rem) + 84px)}
+.hero__media{position:absolute;inset:0;z-index:0}
+.hero__media picture,.hero__media img{display:block;width:100%;height:100%}
+.hero__media img{object-fit:cover;object-position:50% 40%;animation:kb 32s ease-in-out infinite alternate;will-change:transform}
+@keyframes kb{from{transform:scale(1.02)}to{transform:scale(1.12)}}
+.hero__veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(21,17,13,.5) 0%,rgba(21,17,13,.36) 22%,rgba(21,17,13,.8) 50%,rgba(21,17,13,.92) 72%,rgba(21,17,13,.96) 100%)}
+.hero__glow{position:absolute;inset:0;pointer-events:none;background:radial-gradient(60% 40% at 50% 30%,rgba(var(--acc-rgb),.14),transparent 70%)}
+.hero .wrap{text-align:center}
+.hero__kicker{display:inline-flex;align-items:center;gap:.7rem;font-weight:700;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink2);margin-bottom:1rem;text-shadow:0 1px 10px rgba(0,0,0,.7)}
+.hero__kicker::before,.hero__kicker::after{content:"";width:26px;height:2px;background:var(--acc)}
+.hero h1{font-size:clamp(2.9rem,11vw,6.2rem);line-height:.95;letter-spacing:-.01em;text-shadow:0 6px 30px rgba(0,0,0,.55)}
+.hero h1 em{font-style:italic;font-weight:600;color:var(--acc)}
+.hero h1 .tav{display:block;font-size:.42em;font-weight:600;letter-spacing:.32em;text-indent:.32em;margin-top:.35rem;color:var(--ink)}
+.hero p{color:var(--ink);font-size:clamp(1.02rem,1.5vw,1.2rem);max-width:52ch;margin:1.2rem auto 1.5rem;text-shadow:0 1px 12px rgba(0,0,0,.6)}
+.hero__cta{display:flex;flex-direction:column;gap:.6rem;justify-content:center;align-items:stretch;max-width:340px;margin:0 auto}
+.hero__cta .btn{width:100%}
+.hero__trust{margin-top:1.2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:.45rem 1.1rem;color:var(--ink2);font-size:.86rem}
+.hero__trust span{display:inline-flex;align-items:center;gap:.45rem}
+.hero__trust .ic{width:16px;height:16px;color:var(--acc)}
+.hero__trust b{color:var(--ink)}
+.hero__or{display:none;margin-top:1rem;color:var(--ink2);font-size:.98rem}
+.hero__or a{color:var(--ink);font-weight:700;border-bottom:1px solid var(--acc)}
+@media (min-width:640px){.hero__cta{flex-direction:row;max-width:none}.hero__cta .btn{width:auto}}
+@media (min-width:900px){
+  .hero{align-items:center;padding:6rem 0 5rem;min-height:min(100svh,880px)}
+  .hero .wrap{text-align:left}
+  .hero h1{font-size:clamp(4rem,7.4vw,6.8rem)}
+  .hero h1 .tav{text-indent:0}
+  .hero p{margin-inline:0}
+  .hero__cta,.hero__trust{justify-content:flex-start;margin-inline:0}
+  .hero__kicker::after{display:none}
+  .hero__or{display:block}
+  .hero__cta .call-m{display:none}
+  .hero__veil{background:linear-gradient(90deg,rgba(21,17,13,.96) 0%,rgba(21,17,13,.9) 28%,rgba(21,17,13,.6) 52%,rgba(21,17,13,.28) 76%,rgba(21,17,13,.16) 100%),linear-gradient(180deg,rgba(21,17,13,.4),rgba(21,17,13,.1) 45%,rgba(21,17,13,.95))}
+  .hero__media img{object-position:70% 45%}
+}
+@media (prefers-reduced-motion:reduce){.hero__media img,.marq__track{animation:none!important}}
+
+/* ====== INFO BAND ====== */
+.band{background:var(--bg2);border-block:1px solid var(--line);padding:1.35rem 0}
+.band .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem 0}
+.stat{display:flex;gap:.8rem;align-items:center;padding-inline:1rem;position:relative}
+.stat+.stat::before{content:"";position:absolute;left:0;top:50%;transform:translateY(-50%);width:1px;height:38px;background:var(--line2)}
+.stat .ic{width:26px;height:26px;color:var(--acc)}
+.stat b{display:block;font-family:var(--f-head);font-weight:700;font-size:1.15rem;line-height:1.1;color:#fff}
+.stat span{font-size:.84rem;color:var(--mute);line-height:1.3}
+@media (max-width:820px){.band .wrap{grid-template-columns:repeat(2,1fr);gap:1.2rem 0}.stat:nth-child(odd)::before{display:none}.stat{padding-inline:.5rem}}
+
+/* ====== WEEKLY ====== */
+.week{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
+.wk{position:relative;border-radius:var(--r);overflow:hidden;background:var(--card);border:1px solid var(--line);isolation:isolate;display:grid;grid-template-rows:auto 1fr}
+.wk__img{aspect-ratio:4/3;overflow:hidden;position:relative}
+.wk__img img{width:100%;height:100%;object-fit:cover;object-position:50% 25%;transition:transform .6s ease}
+.wk:hover .wk__img img{transform:scale(1.05)}
+.wk__img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(21,17,13,0) 55%,rgba(34,28,22,1) 100%)}
+.wk__day{position:absolute;top:1rem;left:1rem;z-index:2;background:var(--acc);color:var(--acc-ink);border-radius:999px;padding:.4rem .85rem;font-weight:800;font-size:.76rem;letter-spacing:.12em;text-transform:uppercase}
+.wk__body{padding:1.1rem 1.3rem 1.4rem;display:grid;gap:.5rem;align-content:start}
+.wk__body h3{font-size:1.45rem}
+.wk__body p{font-size:.95rem;color:var(--ink2);line-height:1.5}
+.wk__body .time{display:inline-flex;align-items:center;gap:.45rem;color:var(--acc);font-weight:700;font-size:.9rem}
+.wk__body .time .ic{width:16px;height:16px}
+@media (max-width:900px){.week{grid-template-columns:1fr 1fr}.wk:last-child{grid-column:1/-1;max-width:calc(50% - .55rem);margin-inline:auto}}
+@media (max-width:600px){.week{grid-template-columns:1fr;gap:.9rem}.wk:last-child{max-width:none}.wk__img{aspect-ratio:16/10}}
+.week-note{margin-top:1.4rem;color:var(--mute);font-size:.92rem;display:flex;gap:.5rem;align-items:flex-start}
+.week-note .ic{width:16px;height:16px;color:var(--acc);margin-top:3px}
+.week-note a{color:var(--ink);font-weight:600;border-bottom:1px solid var(--line2)}
+
+/* ====== VIBE ====== */
+.vibe{background:var(--bg2);border-block:1px solid var(--line)}
+.vibe__grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:3rem;align-items:center}
+.vibe__pics{display:grid;grid-template-columns:1fr 1fr;gap:.9rem}
+.vibe__pics img{border-radius:var(--r-sm);width:100%;height:100%;object-fit:cover;border:1px solid var(--line)}
+.vibe__pics .wide{grid-column:1/-1;aspect-ratio:16/10}
+.vibe__pics .sq{aspect-ratio:4/3}
+.vibe__txt h2{margin-bottom:1rem}
+.vibe__txt p{color:var(--ink2);margin-bottom:1rem}
+.checks{display:grid;gap:.6rem;margin:1.3rem 0 1.6rem}
+.checks li{list-style:none;display:flex;gap:.65rem;align-items:flex-start;color:var(--ink2)}
+.checks .ic{color:var(--acc);margin-top:3px}
+.checks b{color:var(--ink)}
+@media (max-width:900px){.vibe__grid{grid-template-columns:minmax(0,1fr);gap:2rem}.vibe__txt{text-align:center}.vibe__txt .kicker{justify-content:center}.vibe__txt .kicker::after{display:block}.vibe__txt .lede{margin-inline:auto}.checks{max-width:420px;margin-inline:auto}.checks li{text-align:left}.vibe__txt .btn{margin-inline:auto}}
+
+/* ====== GALLERY ====== */
+.gal{columns:4 220px;gap:.8rem}
+.gal figure{break-inside:avoid;margin:0 0 .8rem;border-radius:var(--r-sm);overflow:hidden;border:1px solid var(--line);background:var(--card)}
+.gal img{width:100%;transition:transform .5s}
+.gal figure:hover img{transform:scale(1.04)}
+@media (max-width:600px){.gal{columns:2;gap:.5rem}.gal figure{margin-bottom:.5rem}}
+
+/* ====== REVIEWS ====== */
+.rev{background:var(--bg2);border-block:1px solid var(--line)}
+.rev .sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:2rem;max-width:none}
+.rev__score{display:flex;align-items:center;gap:1rem;flex:none}
+.rev__score .big{font-family:var(--f-head);font-weight:700;font-size:3.2rem;line-height:1;color:#fff}
+.rev__score .stars{font-size:1.15rem}
+.rev__score small{display:block;color:var(--mute);font-size:.85rem;margin-top:.2rem}
+.marq{position:relative;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.marq__track{display:flex;gap:1rem;width:max-content;animation:marq 140s linear infinite}
+.marq:hover .marq__track{animation-play-state:paused}
+@keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.rc{width:330px;flex:none;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.15rem 1.2rem;display:grid;gap:.6rem;align-content:start}
+.rc__top{display:flex;justify-content:space-between;align-items:center;gap:.5rem}
+.rc__top .stars{font-size:.85rem}
+.rc__top .when{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.rc p{font-size:.93rem;color:var(--ink2);display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden;line-height:1.5}
+.rc__who{display:flex;align-items:center;gap:.6rem;font-size:.86rem}
+.rc__who .av{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,var(--acc),#8a6414);display:grid;place-items:center;font-weight:800;font-size:.8rem;color:var(--acc-ink);flex:none}
+.rc__who b{color:var(--ink);font-weight:600}
+.rc__who span{color:var(--mute)}
+.g-badge{display:inline-flex;align-items:center;gap:.5rem;border:1px solid var(--line2);border-radius:999px;padding:.5rem 1rem;font-size:.86rem;color:var(--ink2);margin-top:1.6rem}
+.g-badge .ic{width:16px;height:16px}
+@media (max-width:760px){.rev .sec-head{flex-direction:column;align-items:center;text-align:center;gap:1.2rem}.rev .kicker{justify-content:center}.rev .kicker::after{display:block}.rc{width:290px}}
+
+/* ====== FIND US ====== */
+.find__grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:2.5rem;align-items:stretch}
+.find__txt h2{margin-bottom:1rem}
+.find__txt>p{color:var(--ink2);margin-bottom:1.2rem}
+.contact-list{display:grid;gap:.8rem;margin-top:1.4rem}
+.contact-list a,.contact-list div{display:flex;align-items:center;gap:.9rem;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.95rem 1.1rem;transition:border-color .2s}
+.contact-list a:hover{border-color:rgba(var(--acc-rgb),.6)}
+.contact-list .ico{width:42px;height:42px;border-radius:10px;background:rgba(var(--acc-rgb),.14);display:grid;place-items:center;color:var(--acc);flex:none}
+.contact-list b{display:block;font-weight:700;color:#fff;overflow-wrap:anywhere}
+.contact-list>*>div{min-width:0}
+.contact-list span{font-size:.86rem;color:var(--mute)}
+.hours{display:grid;grid-template-columns:auto 1fr;gap:.2rem 1.2rem;font-size:.95rem;color:var(--ink2);margin-top:.4rem}
+.hours b{color:var(--ink);font-weight:600}
+.find__map{border-radius:var(--r);overflow:hidden;border:1px solid var(--line);background:#111;min-height:380px;display:grid;grid-template-rows:1fr auto}
+.find__map iframe{width:100%;height:100%;min-height:380px;border:0;filter:grayscale(.15) contrast(1.05)}
+.find__map .sign{display:flex;align-items:center;gap:1rem;padding:.9rem 1.1rem;background:var(--card);border-top:1px solid var(--line)}
+.find__map .sign img{width:64px;height:64px;border-radius:8px;object-fit:cover;border:1px solid var(--line2)}
+.find__map .sign b{display:block;color:#fff}
+.find__map .sign span{font-size:.86rem;color:var(--mute)}
+@media (max-width:900px){.find__grid{grid-template-columns:minmax(0,1fr)}.find__txt{text-align:center}.find__txt .kicker{justify-content:center}.find__txt .kicker::after{display:block}.contact-list a,.contact-list div{text-align:left}}
+
+/* ====== FOOTER ====== */
+.ftr{padding:3rem 0 calc(2rem + 84px);border-top:1px solid var(--line);color:var(--mute);font-size:.9rem}
+.ftr__grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
+.ftr .brand{margin-bottom:.8rem}
+.ftr h4{font-family:var(--f-body);font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink2);margin-bottom:.8rem}
+.ftr ul{list-style:none;display:grid;gap:.45rem}
+.ftr a:hover{color:var(--ink)}
+.ftr__bot{margin-top:2rem;padding-top:1.2rem;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;justify-content:space-between;gap:.6rem 1.5rem;font-size:.84rem}
+@media (min-width:761px){.ftr{padding-bottom:2rem}}
+@media (max-width:640px){.ftr__grid{grid-template-columns:1fr;text-align:center}.ftr .brand{justify-content:center}.ftr__bot{justify-content:center;text-align:center}}
+
+/* ====== STICKY CALL BAR ====== */
+.callbar{position:fixed;left:0;right:0;bottom:0;z-index:50;display:none;grid-template-columns:1fr 1fr;gap:.5rem;padding:.6rem .75rem calc(.6rem + env(safe-area-inset-bottom));background:rgba(21,17,13,.92);backdrop-filter:blur(12px);border-top:1px solid var(--line2)}
+.callbar .btn{padding:.85rem .6rem;font-size:.92rem;border-radius:12px}
+@media (max-width:760px){.callbar{display:grid}}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+  <symbol id="i-beer" viewBox="0 0 24 24"><path d="M17 11h1a3 3 0 0 1 0 6h-1"/><path d="M9 12v6"/><path d="M13 12v6"/><path d="M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 2 11 2s2 1.5 3 1.5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5Z"/><path d="M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"/></symbol>
+  <symbol id="i-mic" viewBox="0 0 24 24"><path d="M12 19v3"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><rect x="9" y="2" width="6" height="13" rx="3"/></symbol>
+  <symbol id="i-music" viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/><path d="M16 18h.01"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></symbol>
+  <symbol id="i-google" viewBox="0 0 24 24"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"/></symbol>
+</svg>
+
+<!-- ====== HEADER ====== -->
+<header class="hdr">
+  <div class="wrap">
+    <a class="brand" href="#top"><span>OASIS <em>Tavern</em></span><small>Flour Bluff</small></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#week">What's On</a>
+      <a href="#vibe">The Bar</a>
+      <a href="#photos">Photos</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#find">Find Us</a>
+    </nav>
+    <div class="hdr-cta">
+      <a class="btn btn-acc" href="tel:+13619371911"><svg class="ic"><use href="#i-phone"/></svg><span>(361) 937-1911</span></a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mnav"><svg class="ic"><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+</header>
+<div class="mnav" id="mnav" role="dialog" aria-label="Menu">
+  <div class="mnav__top"><span class="brand"><span>OASIS <em>Tavern</em></span></span><button class="mnav__close" id="mnavClose" aria-label="Close menu">×</button></div>
+  <a href="#week">What's On <svg class="ic"><use href="#i-chev"/></svg></a>
+  <a href="#vibe">The Bar <svg class="ic"><use href="#i-chev"/></svg></a>
+  <a href="#photos">Photos <svg class="ic"><use href="#i-chev"/></svg></a>
+  <a href="#reviews">Reviews <svg class="ic"><use href="#i-chev"/></svg></a>
+  <a href="#find">Find Us <svg class="ic"><use href="#i-chev"/></svg></a>
+  <a class="btn btn-acc" href="tel:+13619371911"><svg class="ic"><use href="#i-phone"/></svg>Call (361) 937-1911</a>
+  <a class="btn btn-ghost" href="https://www.facebook.com/oasistavern361/" target="_blank" rel="noopener"><svg class="ic fill"><use href="#i-fb"/></svg>Follow on Facebook</a>
+  <p class="mn-sub">722 NAS Dr · Corpus Christi, TX 78418</p>
+</div>
+
+<!-- ====== HERO ====== -->
+<section class="hero" id="top">
+  <div class="hero__media">
+    <picture>
+      <source media="(max-width:899px)" srcset="assets/img/hero-m.jpg">
+      <img src="assets/img/hero-d.jpg" alt="Live music on the covered patio at Oasis Tavern, Flour Bluff" fetchpriority="high">
+    </picture>
+    <div class="hero__veil"></div>
+    <div class="hero__glow"></div>
+  </div>
+  <div class="wrap">
+    <div class="hero__kicker">Flour Bluff · NAS Drive</div>
+    <h1>Cold beer.<br><em>Friendly faces.</em><span class="tav">Oasis Tavern</span></h1>
+    <p>Flour Bluff's neighborhood bar: ice cold beer, pool tables, Saturday karaoke, Wednesday open mic and a big covered patio where everybody knows your name by the second visit.</p>
+    <div class="hero__cta">
+      <a class="btn btn-acc call-m" href="tel:+13619371911"><svg class="ic"><use href="#i-phone"/></svg>Call the Bar</a>
+      <a class="btn btn-ghost" href="#week"><svg class="ic"><use href="#i-cal"/></svg>See What's On</a>
+      <a class="btn btn-ghost" href="#find"><svg class="ic"><use href="#i-pin"/></svg>Get Directions</a>
+    </div>
+    <p class="hero__or">Or call <a href="tel:+13619371911">(361) 937-1911</a> · Open 7 days</p>
+    <div class="hero__trust">
+      <span><svg class="ic fill"><use href="#i-star"/></svg><b>4.2</b>&nbsp;on Google · 129 reviews</span>
+      <span><svg class="ic"><use href="#i-beer"/></svg>Cash bar · BYOB set-ups</span>
+      <span><svg class="ic"><use href="#i-moon"/></svg>Open late every night</span>
+    </div>
+  </div>
+</section>
+
+<!-- ====== INFO BAND ====== -->
+<div class="band">
+  <div class="wrap">
+    <div class="stat"><svg class="ic"><use href="#i-clock"/></svg><div><b>Open 7 Days</b><span>From 9 AM weekdays, till midnight or later</span></div></div>
+    <div class="stat"><svg class="ic"><use href="#i-beer"/></svg><div><b>Ice Cold Beer</b><span>Cash bar. Bring your bottle, we've got set-ups</span></div></div>
+    <div class="stat"><svg class="ic"><use href="#i-mic"/></svg><div><b>Karaoke &amp; Open Mic</b><span>Every week, all voices welcome</span></div></div>
+    <div class="stat"><svg class="ic"><use href="#i-users"/></svg><div><b>Big Covered Patio</b><span>Pool tables inside, string lights outside</span></div></div>
+  </div>
+</div>
+
+<!-- ====== WEEKLY ====== -->
+<section id="week">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="kicker">What's On</div>
+      <h2>Every week at the Oasis</h2>
+      <p class="lede">The regulars already know the rhythm. Here it is for everyone else.</p>
+    </div>
+    <div class="week">
+      <article class="wk rv">
+        <div class="wk__img"><img src="assets/img/fly-openmic.jpg" alt="Oasis Tavern Open Mic Jam flyer" loading="lazy"><span class="wk__day">Wednesdays</span></div>
+        <div class="wk__body"><h3>Open Mic Jam &amp; 8-Ball</h3><p>Bring your instrument, your voice, or just yourself. Hosted open mic on the patio, plus the weekly 8-ball tournament at the tables.</p><span class="time"><svg class="ic"><use href="#i-clock"/></svg>Evenings from 7</span></div>
+      </article>
+      <article class="wk rv">
+        <div class="wk__img"><img src="assets/img/fly-karaoke.jpg" alt="Oasis Tavern Saturday Night Karaoke flyer" loading="lazy"><span class="wk__day">Saturdays</span></div>
+        <div class="wk__body"><h3>Karaoke Night</h3><p>Saturday karaoke with Tune in a Bucket. Cold beer, BYOB set-ups, food when there's a pot-luck, and a crowd that sings along whether you're good or not.</p><span class="time"><svg class="ic"><use href="#i-clock"/></svg>Starts 7:30 PM</span></div>
+      </article>
+      <article class="wk rv">
+        <div class="wk__img"><img src="assets/img/fly-bday.jpg" alt="Oasis Tavern monthly birthday party flyer" loading="lazy"><span class="wk__day">Monthly</span></div>
+        <div class="wk__body"><h3>Birthday Bash &amp; Pot-Lucks</h3><p>One night a month we celebrate everybody's birthday at once. Live music or karaoke, the bar cooks the main, you bring a side. All sides welcome.</p><span class="time"><svg class="ic"><use href="#i-cal"/></svg>Dates on Facebook</span></div>
+      </article>
+    </div>
+    <p class="week-note rv"><svg class="ic"><use href="#i-fb"/></svg><span>Live bands, food trucks and holiday parties get posted as they come. <a href="https://www.facebook.com/oasistavern361/" target="_blank" rel="noopener">Follow the bar on Facebook</a> so you don't miss one.</span></p>
+  </div>
+</section>
+
+<!-- ====== VIBE ====== -->
+<section class="vibe" id="vibe">
+  <div class="wrap">
+    <div class="vibe__grid">
+      <div class="vibe__pics rv">
+        <img class="wide" src="assets/img/sign-wall.jpg" alt="The painted Oasis Tavern Beer and Pool sign" loading="lazy">
+        <img class="sq" src="assets/img/patio-day.jpg" alt="The covered patio at Oasis Tavern by day" loading="lazy">
+        <img class="sq" src="assets/img/g-front.jpg" alt="Oasis Tavern front on NAS Drive" loading="lazy">
+      </div>
+      <div class="vibe__txt rv">
+        <div class="kicker">The Bar</div>
+        <h2>A real neighborhood bar, not a theme of one</h2>
+        <p class="lede">Locally owned and run. Pool inside, a big covered patio outside, string lights, a Texas flag on the wall and a bartender who'll remember what you drink.</p>
+        <ul class="checks">
+          <li><svg class="ic"><use href="#i-check"/></svg><span><b>Beer bar with set-ups.</b> Ice cold domestics and imports. Bring your own bottle and we'll pour the mixers.</span></li>
+          <li><svg class="ic"><use href="#i-check"/></svg><span><b>Cash only.</b> Old school on purpose. Bring cash.</span></li>
+          <li><svg class="ic"><use href="#i-check"/></svg><span><b>Pool tables and tournaments.</b> Cheap games, weekly 8-ball, and regulars who'll take your money nicely.</span></li>
+          <li><svg class="ic"><use href="#i-check"/></svg><span><b>Live music on the patio.</b> Open mic, local bands and karaoke under the lights.</span></li>
+          <li><svg class="ic"><use href="#i-check"/></svg><span><b>21 and up.</b> Sorry kids, this one's for the grown-ups.</span></li>
+        </ul>
+        <a class="btn btn-acc" href="tel:+13619371911"><svg class="ic"><use href="#i-phone"/></svg>Call (361) 937-1911</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== GALLERY ====== -->
+<section id="photos">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="kicker">Photos</div>
+      <h2>Nights at the Oasis</h2>
+      <p class="lede">Straight from the bar's own camera roll.</p>
+    </div>
+    <div class="gal rv">
+      <figure><img src="assets/img/g-band.jpg" alt="Band playing to a full patio" loading="lazy"></figure>
+      <figure><img src="assets/img/g-pink.jpg" alt="Singer with a pink guitar in front of the Texas flag" loading="lazy"></figure>
+      <figure><img src="assets/img/g-crowd.jpg" alt="Friends at the patio bar" loading="lazy"></figure>
+      <figure><img src="assets/img/g-fish.jpg" alt="Fish fry night" loading="lazy"></figure>
+      <figure><img src="assets/img/g-trio.jpg" alt="Trio playing under the string lights" loading="lazy"></figure>
+      <figure><img src="assets/img/sign-road.jpg" alt="The Oasis Tavern sign on NAS Drive" loading="lazy"></figure>
+      <figure><img src="assets/img/g-two.jpg" alt="Regulars on the patio" loading="lazy"></figure>
+      <figure><img src="assets/img/g-table.jpg" alt="Patio picnic tables" loading="lazy"></figure>
+      <figure><img src="assets/img/g-duo.jpg" alt="Acoustic set on the patio" loading="lazy"></figure>
+      <figure><img src="assets/img/g-night.jpg" alt="Oasis Tavern lit up at night" loading="lazy"></figure>
+      <figure><img src="assets/img/g-couple.jpg" alt="A couple enjoying the patio" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ====== REVIEWS ====== -->
+<section class="rev" id="reviews">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <div class="kicker">Reviews</div>
+        <h2>What the regulars say</h2>
+      </div>
+      <div class="rev__score"><span class="big">4.2</span><div><div class="stars">★★★★☆</div><small>129 Google reviews</small></div></div>
+    </div>
+  </div>
+  <div class="marq rv"><div class="marq__track" id="marq"></div></div>
+  <div class="wrap" style="text-align:center"><a class="g-badge" href="https://www.google.com/maps?cid=13462220105153479128" target="_blank" rel="noopener"><svg class="ic fill"><use href="#i-google"/></svg>Read all reviews on Google</a></div>
+</section>
+
+<!-- ====== FIND US ====== -->
+<section id="find">
+  <div class="wrap">
+    <div class="find__grid">
+      <div class="find__txt rv">
+        <div class="kicker">Find Us</div>
+        <h2>On NAS Drive, Flour Bluff</h2>
+        <p>Right on NAS Dr between the base and Lakeside. Free parking lot, covered patio out back.</p>
+        <div class="contact-list">
+          <a href="tel:+13619371911"><span class="ico"><svg class="ic"><use href="#i-phone"/></svg></span><div><b>(361) 937-1911</b><span>Call the bar</span></div></a>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=Oasis+Tavern+722+NAS+Dr+Corpus+Christi+TX+78418" target="_blank" rel="noopener"><span class="ico"><svg class="ic"><use href="#i-pin"/></svg></span><div><b>722 NAS Dr, Corpus Christi, TX 78418</b><span>Open in Google Maps</span></div></a>
+          <div><span class="ico"><svg class="ic"><use href="#i-clock"/></svg></span><div><b>Hours</b><div class="hours"><b>Mon–Fri</b><span>9 AM – 12 AM</span><b>Saturday</b><span>9 AM – 1 AM</span><b>Sunday</b><span>10 AM – 12 AM</span></div></div></div>
+          <a href="https://www.facebook.com/oasistavern361/" target="_blank" rel="noopener"><span class="ico"><svg class="ic fill"><use href="#i-fb"/></svg></span><div><b>Oasis-Tavern on Facebook</b><span>Events, bands and birthday nights</span></div></a>
+        </div>
+      </div>
+      <div class="find__map rv">
+        <iframe title="Map to Oasis Tavern" src="https://www.google.com/maps?q=Oasis+Tavern+722+NAS+Dr+Corpus+Christi+TX+78418&z=15&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        <div class="sign"><img src="assets/img/sign-road.jpg" alt=""><div><b>Look for the big blue sign</b><span>Oasis Tavern · Beer · Pool</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== FOOTER ====== -->
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr__grid">
+      <div>
+        <div class="brand"><span>OASIS <em>Tavern</em></span><small>Flour Bluff</small></div>
+        <p>Cold beer and friendly faces on NAS Drive. Locally owned and operated. 21+.</p>
+      </div>
+      <div><h4>The Bar</h4><ul><li><a href="#week">What's On</a></li><li><a href="#vibe">The Bar</a></li><li><a href="#photos">Photos</a></li><li><a href="#reviews">Reviews</a></li></ul></div>
+      <div><h4>Visit</h4><ul><li><a href="tel:+13619371911">(361) 937-1911</a></li><li><a href="#find">722 NAS Dr, Corpus Christi</a></li><li><a href="https://www.facebook.com/oasistavern361/" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://www.google.com/maps?cid=13462220105153479128" target="_blank" rel="noopener">Google Reviews</a></li></ul></div>
+    </div>
+    <div class="ftr__bot">
+      <span>© 2026 Oasis Tavern · Corpus Christi, TX</span>
+      <span>Cash bar · BYOB set-ups · Please drink responsibly</span>
+    </div>
+  </div>
+</footer>
+
+<div class="callbar">
+  <a class="btn btn-acc" href="tel:+13619371911"><svg class="ic"><use href="#i-phone"/></svg>Call the Bar</a>
+  <a class="btn btn-ghost" href="#find"><svg class="ic"><use href="#i-pin"/></svg>Directions</a>
+</div>
+
+<script>
+/* real Google reviews, verbatim (research/reviews-clean.json) */
+const REVIEWS = /*REVIEWS*/[{"name": "Bethany Pepper", "stars": 5, "when": "3 months ago", "text": "This is the Karyoke spot.  I've been coming a couple months and the waitress is friendly.  The KJ is energetic and fun.  It's a nice chill spot. Indoor and outdoor seating. Also they serve snacks."}, {"name": "Steve Steffen", "stars": 5, "when": "5 months ago", "text": "Was visiting a friend in Corpus and went in for dinner.  The food was very good but the charro beans are to die for, they are the best I have ever eaten.  Staff was great, service was good."}, {"name": "Freakinkat TV (KAT)", "stars": 5, "when": "7 years ago", "text": "Is pretty cool place they got drinks music machine, pool, plenty of parking, lights and friendly staff"}, {"name": "Leo Duque", "stars": 5, "when": "7 months ago", "text": "Really cool spot...super comfortable environment. Shout out to Rachel...she's great."}, {"name": "Military Veteran", "stars": 3, "when": "a year ago", "text": "This place is Nice, Fun and Cool.  😎  👍  I just wish they'd start accepting All debit and credit cards, But UNfortunately they DON'T, and i wish they had a few More Snacks for us to buy, such as nachos or popcorn, plus NOT All of us drink alcohol so we want a few more choices in sodas.  The Karaoke  🎤  🎶  was Fun, the kj had a Nice voice, there were other good Singers in there (including Me, LoL!), but the area where they hold the karaoke is really small, plus it's in the \"outside patio\" and there's smoking outside (it was Cool but my sinus gets easily affected in a bad way when i'm around smokers so i had to Leave right away).  Thanks Corpus Christi for Friendly people at Oasis Tavern in July 2025--  Cheers!  🥂"}, {"name": "Arturo Munoz Jr", "stars": 5, "when": "a year ago", "text": "Great people and great place to chill out and meet new friends."}, {"name": "Aaron Johnston", "stars": 5, "when": "3 years ago", "text": "Place I play tournaments 2 or 3 times a week. Good atmosphere. Good time. My local bar."}, {"name": "Peggy Blimline", "stars": 5, "when": "8 years ago", "text": "Best Bartender on Sat, Sunday and Tuesday nights!\nYa gotta stop by but remember to tip!!!"}, {"name": "Gerry Gilmer", "stars": 3, "when": "5 years ago", "text": "Quaint little set up bar! Bring your own bottle and get the setups.from the beer wench"}, {"name": "Stacy Thurman", "stars": 5, "when": "7 years ago", "text": "Gypsy is the best waitress such an enjoyable soul and it's a good atmosphere.Flour bluff"}];
+(function(){
+  const track = document.getElementById('marq');
+  const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const card = r => `<div class="rc"><div class="rc__top"><span class="stars">${'★'.repeat(r.stars)}${'☆'.repeat(5-r.stars)}</span><span class="when">${esc(r.when)}</span></div><p>${esc(r.text)}</p><div class="rc__who"><span class="av">${esc(r.name.trim()[0].toUpperCase())}</span><b>${esc(r.name)}</b><span>· Google</span></div></div>`;
+  const html = REVIEWS.map(card).join('');
+  track.innerHTML = html + html;
+  track.style.animationDuration = Math.max(90, REVIEWS.length * 9) + 's';
+
+  const m = document.getElementById('mnav'), b = document.getElementById('burger'), c = document.getElementById('mnavClose');
+  const open = () => { m.classList.add('on'); document.body.classList.add('menu-open'); b.setAttribute('aria-expanded','true'); };
+  const close = () => { m.classList.remove('on'); document.body.classList.remove('menu-open'); b.setAttribute('aria-expanded','false'); };
+  b.addEventListener('click', open); c.addEventListener('click', close);
+  m.querySelectorAll('a').forEach(a => a.addEventListener('click', close));
+
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { rootMargin: '0px 0px -8% 0px' });
+  document.querySelectorAll('.rv').forEach(el => io.observe(el));
+})();
+</script>
+</body>
+</html>
