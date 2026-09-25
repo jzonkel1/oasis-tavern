@@ -67,3 +67,11 @@ Fix on signing: set GBP website to the new domain; optionally claim/delete the e
 - Mark = the real hand-painted yellow sign (FB photo 62, perspective-corrected -> assets/img/sign.jpg). Timeline: yellow board was the original gable sign (old Google exterior photo), blue roof sign replaced it (2022 FB photos); yellow now hangs on the patio wall. Both real; blue shown in Find Us as the landmark.
 - Fonts Antonio + Source Sans 3. Accent #c9a54a (sign yellow, brightened from the weathered #b7a05f sample). Removed: grain, kickers, info band, checklist section.
 - Order: hero -> reviews -> what's on -> photos -> find us. OG card v2 uses the sign; headline measured inside the 285-915 safe box.
+
+## v4 (9/24/26 evening) — match the NEW Facebook page's brand
+- Second FB page: facebook.com/oasistavern78418 (page id 61591361201758), 112 followers, someone other than Teddy runs it. Round teal badge logo + "From Dive Bar to Superstar" cover, both AI art. 142 photos in research/fb2/.
+- Logo: assets/img/logo.png (circle-cut from the 1254px profile pic), logo-512.png, favicon. Accent teal #3eabad (sampled), teal text #5fd0d2. Font stays Lilita One.
+- Hero photo now the new page's full-patio-at-dusk shot (fb2 keep #24); mobile = dancing couple (#21). Yellow painted sign moved to the gallery.
+- Weekly = 4 nights from their "This Week at the O" flyers (Sept 2026): Wed Open Jam w/ Darren McGill 7:30 + 8-ball; Fri Ladies Night 50c off beers; Sat Karaoke w/ Tune in a Bucket 7:30; Sun Football + food.
+- H1 = their slogan "Good drinks. Good people. Good times." OG card v6 uses the badge.
+- Old versions: research/index-v1.html (Zilla), index-v3-yellow.html (yellow sign / Lilita).
