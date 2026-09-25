@@ -61,3 +61,9 @@ Fix on signing: set GBP website to the new domain; optionally claim/delete the e
 - Hours on the page are from directories, not GBP. CONFIRM with Teddy.
 - No logo exists; wordmark is set in type. Their painted sign photo carries the brand.
 - Launch checklist: domain -> Pages CNAME + HTTPS, drop noindex meta, set canonical/og URLs to the domain (research/set_canonical_host.py pattern from Hot Box), set GBP website field to the domain, flag/claim the edan.io listing.
+
+## v2 (9/24/26, after Jeffrey's tone feedback)
+- Rejected v1: "hipsterish", "too much information", "reviews should be higher", "feels like a smoke shop". v1 saved at research/index-v1.html.
+- Mark = the real hand-painted yellow sign (FB photo 62, perspective-corrected -> assets/img/sign.jpg). Timeline: yellow board was the original gable sign (old Google exterior photo), blue roof sign replaced it (2022 FB photos); yellow now hangs on the patio wall. Both real; blue shown in Find Us as the landmark.
+- Fonts Antonio + Source Sans 3. Accent #c9a54a (sign yellow, brightened from the weathered #b7a05f sample). Removed: grain, kickers, info band, checklist section.
+- Order: hero -> reviews -> what's on -> photos -> find us. OG card v2 uses the sign; headline measured inside the 285-915 safe box.
