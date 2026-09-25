@@ -12,20 +12,20 @@
 <meta property="og:site_name" content="Oasis Tavern">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://jzonkel1.github.io/oasis-tavern/">
-<meta property="og:image" content="https://jzonkel1.github.io/oasis-tavern/assets/img/og.jpg?v=3">
-<meta property="og:image:secure_url" content="https://jzonkel1.github.io/oasis-tavern/assets/img/og.jpg?v=3">
+<meta property="og:image" content="https://jzonkel1.github.io/oasis-tavern/assets/img/og.jpg?v=4">
+<meta property="og:image:secure_url" content="https://jzonkel1.github.io/oasis-tavern/assets/img/og.jpg?v=4">
 <meta property="og:image:alt" content="Oasis Tavern, 722 NAS Dr, Corpus Christi">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://jzonkel1.github.io/oasis-tavern/assets/img/og.jpg?v=3">
+<meta name="twitter:image" content="https://jzonkel1.github.io/oasis-tavern/assets/img/og.jpg?v=4">
 <link rel="icon" href="assets/favicon.png">
 <link rel="preload" as="image" href="assets/img/hero-m.jpg" media="(max-width:899px)">
 <link rel="preload" as="image" href="assets/img/hero-d.jpg" media="(min-width:900px)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
 /* ====== TOKENS ====== */
 :root{
@@ -33,7 +33,7 @@
   --ink:#f4efe4; --ink2:#d9d2c3; --mute:#9d968a;
   --acc:#c9a54a; --acc-rgb:201,165,74; --acc-deep:#ad8b35; --acc-ink:#161206;
   --star:#e9b53a;
-  --f-head:'Antonio',Impact,sans-serif; --f-body:'Source Sans 3',system-ui,sans-serif;
+  --f-head:'Lilita One','Arial Rounded MT Bold',sans-serif; --f-body:'Source Sans 3',system-ui,sans-serif;
   --r:12px; --wrap:1120px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -43,13 +43,13 @@ img{display:block;max-width:100%;height:auto}
 a{color:inherit;text-decoration:none}
 button{font:inherit;color:inherit}
 .wrap{width:min(var(--wrap),100% - 2.5rem);margin-inline:auto;position:relative}
-h1,h2,h3{font-family:var(--f-head);font-weight:700;line-height:.98;text-transform:uppercase;letter-spacing:.01em}
-h2{font-size:clamp(2.4rem,5vw,3.6rem)}
-h3{font-size:1.5rem}
+h1,h2,h3{font-family:var(--f-head);font-weight:400;line-height:1.02;letter-spacing:.005em}
+h2{font-size:clamp(2rem,4.2vw,3rem)}
+h3{font-size:1.35rem}
 section{padding:clamp(3.5rem,7vw,5.5rem) 0;position:relative}
 .sec-head{margin-bottom:2rem;display:flex;align-items:flex-end;justify-content:space-between;gap:1.5rem;flex-wrap:wrap}
 .sec-head p{color:var(--ink2);font-size:1.08rem;max-width:56ch}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;padding:1rem 1.6rem;border-radius:6px;font-family:var(--f-head);font-weight:700;font-size:1.2rem;letter-spacing:.06em;text-transform:uppercase;border:2px solid transparent;transition:transform .15s,background .2s;cursor:pointer;white-space:nowrap;line-height:1}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;padding:.95rem 1.5rem;border-radius:6px;font-family:var(--f-head);font-weight:400;font-size:1.12rem;letter-spacing:.01em;border:2px solid transparent;transition:transform .15s,background .2s;cursor:pointer;white-space:nowrap;line-height:1}
 .btn:active{transform:translateY(1px)}
 .btn-acc{background:var(--acc);color:var(--acc-ink);border-color:var(--acc)}
 .btn-acc:hover{background:var(--acc-deep);border-color:var(--acc-deep)}
@@ -65,10 +65,10 @@ section{padding:clamp(3.5rem,7vw,5.5rem) 0;position:relative}
 .hdr .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;height:70px}
 .brand img{height:46px;width:auto;border-radius:3px;box-shadow:0 2px 10px rgba(0,0,0,.5)}
 .nav{display:flex;align-items:center;gap:.1rem}
-.nav a{padding:.6rem .9rem;border-radius:6px;font-family:var(--f-head);font-weight:600;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)}
+.nav a{padding:.6rem .9rem;border-radius:6px;font-family:var(--f-head);font-weight:400;font-size:1.05rem;letter-spacing:.01em;color:var(--ink2)}
 .nav a:hover{color:#fff;background:rgba(255,255,255,.06)}
 .hdr-cta{display:flex;align-items:center;gap:.5rem}
-.hdr-cta .btn{padding:.7rem 1.1rem;font-size:1.05rem}
+.hdr-cta .btn{padding:.7rem 1.1rem;font-size:1rem}
 .burger{display:none;width:44px;height:44px;border-radius:6px;border:1px solid var(--line2);background:rgba(255,255,255,.04);align-items:center;justify-content:center;cursor:pointer}
 @media (max-width:900px){.nav{display:none}.burger{display:flex}.hdr-cta .btn span{display:none}.hdr-cta .btn{padding:.7rem .85rem}}
 .mnav{position:fixed;inset:0;z-index:80;background:rgba(17,17,16,.985);display:none;flex-direction:column;padding:1rem 1.25rem calc(1.25rem + env(safe-area-inset-bottom));overflow-y:auto}
@@ -76,7 +76,7 @@ section{padding:clamp(3.5rem,7vw,5.5rem) 0;position:relative}
 .mnav__top{display:flex;align-items:center;justify-content:space-between;height:56px;margin-bottom:.5rem}
 .mnav__top img{height:44px}
 .mnav__close{width:44px;height:44px;border-radius:6px;border:1px solid var(--line2);background:rgba(255,255,255,.05);font-size:1.5rem;cursor:pointer}
-.mnav>a{font-family:var(--f-head);font-weight:600;font-size:1.6rem;letter-spacing:.06em;text-transform:uppercase;padding:1rem .25rem;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
+.mnav>a{font-family:var(--f-head);font-weight:400;font-size:1.45rem;letter-spacing:.01em;padding:1rem .25rem;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
 .mnav>a .ic{color:var(--acc)}
 .mnav .btn{margin-top:1.25rem}
 .mnav .mn-sub{color:var(--mute);font-size:.95rem;margin-top:1rem;text-align:center}
@@ -91,7 +91,7 @@ body.menu-open{overflow:hidden}
 .hero__veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,17,16,.45) 0%,rgba(17,17,16,.3) 25%,rgba(17,17,16,.78) 52%,rgba(17,17,16,.92) 74%,rgba(17,17,16,.97) 100%)}
 .hero .wrap{text-align:center}
 .hero__sign{width:min(78vw,360px);margin:0 auto 1.4rem;border-radius:4px;box-shadow:0 18px 50px rgba(0,0,0,.65),0 0 0 3px rgba(0,0,0,.35);transform:rotate(-1.5deg)}
-.hero h1{font-size:clamp(2.6rem,9.5vw,5.4rem);text-shadow:0 4px 24px rgba(0,0,0,.6)}
+.hero h1{font-size:clamp(2.2rem,8vw,4.4rem);text-shadow:0 4px 24px rgba(0,0,0,.6)}
 .hero h1 em{font-style:normal;color:var(--acc)}
 .hero p{color:var(--ink);font-size:clamp(1.08rem,1.6vw,1.3rem);max-width:46ch;margin:.9rem auto 1.4rem;text-shadow:0 1px 12px rgba(0,0,0,.6)}
 .hero__cta{display:flex;flex-direction:column;gap:.6rem;justify-content:center;align-items:stretch;max-width:340px;margin:0 auto}
@@ -105,7 +105,7 @@ body.menu-open{overflow:hidden}
   .hero{align-items:center;padding:5rem 0 4rem;min-height:min(100svh,860px)}
   .hero .wrap{text-align:left;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);align-items:center;gap:3rem}
   .hero__sign{width:min(38vw,470px);margin:0;transform:rotate(-2deg);order:2;justify-self:end}
-  .hero h1{font-size:clamp(3.6rem,6.6vw,6rem)}
+  .hero h1{font-size:clamp(3rem,5.2vw,4.7rem)}
   .hero p{margin-inline:0}
   .hero__cta{justify-content:flex-start;margin-inline:0}
   .hero__cta .call-m{display:none}
@@ -122,7 +122,7 @@ body.menu-open{overflow:hidden}
 .rev__score{display:flex;align-items:center;gap:1rem}
 .rev__score .stars{font-size:1.3rem}
 .rev__score small{display:block;color:var(--ink2);font-size:1.05rem;font-weight:600}
-.rev h2{font-size:clamp(1.9rem,3.5vw,2.6rem)}
+.rev h2{font-size:clamp(1.7rem,3vw,2.3rem)}
 .g-badge{display:inline-flex;align-items:center;gap:.5rem;border:1px solid var(--line2);border-radius:6px;padding:.55rem 1rem;font-size:.95rem;font-weight:600;color:var(--ink2)}
 .g-badge .ic{width:16px;height:16px}
 .marq{position:relative;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
@@ -143,9 +143,9 @@ body.menu-open{overflow:hidden}
 .wk{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:grid;grid-template-rows:auto 1fr}
 .wk__img{aspect-ratio:4/3;overflow:hidden;position:relative}
 .wk__img img{width:100%;height:100%;object-fit:cover;object-position:50% 20%}
-.wk__day{position:absolute;top:.9rem;left:.9rem;background:var(--acc);color:var(--acc-ink);border-radius:4px;padding:.4rem .7rem;font-family:var(--f-head);font-weight:700;font-size:1.05rem;letter-spacing:.1em;text-transform:uppercase;line-height:1}
+.wk__day{position:absolute;top:.9rem;left:.9rem;background:var(--acc);color:var(--acc-ink);border-radius:4px;padding:.4rem .7rem;font-family:var(--f-head);font-weight:400;font-size:1rem;letter-spacing:.02em;line-height:1}
 .wk__body{padding:1.1rem 1.2rem 1.3rem;display:grid;gap:.4rem;align-content:start}
-.wk__body h3{font-size:1.7rem}
+.wk__body h3{font-size:1.5rem}
 .wk__body p{font-size:1rem;color:var(--ink2);line-height:1.45}
 .wk__body .time{color:var(--acc);font-weight:700;font-size:1rem}
 @media (max-width:900px){.week{grid-template-columns:repeat(2,minmax(0,1fr))}.wk:last-child{grid-column:1/-1;max-width:calc(50% - .5rem);margin-inline:auto;width:100%}}
@@ -192,7 +192,7 @@ body.menu-open{overflow:hidden}
 
 /* ====== STICKY CALL BAR ====== */
 .callbar{position:fixed;left:0;right:0;bottom:0;z-index:50;display:none;grid-template-columns:1fr 1fr;gap:.5rem;padding:.6rem .75rem calc(.6rem + env(safe-area-inset-bottom));background:rgba(17,17,16,.94);backdrop-filter:blur(12px);border-top:1px solid var(--line2)}
-.callbar .btn{padding:.85rem .6rem;font-size:1.1rem}
+.callbar .btn{padding:.85rem .6rem;font-size:1.05rem}
 @media (max-width:760px){.callbar{display:grid}}
 
 .rv{opacity:0;transform:translateY(14px);transition:opacity .55s ease,transform .55s ease}
@@ -251,7 +251,7 @@ body.menu-open{overflow:hidden}
   <div class="wrap">
     <img class="hero__sign" src="assets/img/sign.jpg" alt="The original Oasis Tavern sign: Beer, Pool">
     <div>
-      <h1>Cold beer. Pool tables.<br><em>Friendly faces.</em></h1>
+      <h1>Cold beer. Pool.<br><em>Friendly faces.</em></h1>
       <p>Flour Bluff's neighborhood bar on NAS Drive. Karaoke Saturdays, open mic Wednesdays, a big covered patio, and a bartender who remembers your name.</p>
       <div class="hero__cta">
         <a class="btn btn-acc call-m" href="tel:+13619371911"><svg class="ic"><use href="#i-phone"/></svg>Call the Bar</a>
