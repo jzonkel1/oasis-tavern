@@ -51,3 +51,13 @@ Fix on signing: set GBP website to the new domain; optionally claim/delete the e
 - Hours not read from GBP directly (limited view); confirm before demo.
 - No logo found; FB profile photo not pulled. No photos scraped yet.
 - Full review list not scraped (limited view). Demo uses only the real excerpts above.
+
+## Build (9/24/26)
+- Live preview: https://jzonkel1.github.io/oasis-tavern/  (repo jzonkel1/oasis-tavern, Pages on main, noindex)
+- Deal: $250 one-off site, hosted free on GitHub Pages; custom domain later via Pages custom domain (CNAME) since no old github.io links exist for this one.
+- Type: Zilla Slab + Mulish (first use of both). Accent = mustard gold sampled from their painted wall sign.
+- Photos: 276 FB photos harvested (research/fb-harvest.json, 205 unique); hero = twilight patio band, mobile hero = guitarist under lights.
+- Weekly lineup copied from their own flyers: Wed open mic jam (Robert McCoy) + 8-ball, Sat karaoke w/ Tune in a Bucket 7:30, monthly birthday pot-luck. CONFIRM with Teddy before launch.
+- Hours on the page are from directories, not GBP. CONFIRM with Teddy.
+- No logo exists; wordmark is set in type. Their painted sign photo carries the brand.
+- Launch checklist: domain -> Pages CNAME + HTTPS, drop noindex meta, set canonical/og URLs to the domain (research/set_canonical_host.py pattern from Hot Box), set GBP website field to the domain, flag/claim the edan.io listing.
